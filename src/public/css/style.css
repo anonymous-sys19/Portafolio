@@ -154,11 +154,11 @@ h2 {
     /* background: #ff2881eb; */
     
     
-    color: #ff4391;
+    color: var(--Title);
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 11px 9px #d30765;
 }
-
+  
 
 /* Logo */
 .logoB {
