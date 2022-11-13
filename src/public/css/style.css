@@ -22,6 +22,7 @@
     background: var(--bgTitle);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: x-large;
 }
 
 header {
@@ -37,21 +38,19 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 1.5rem 0 0 0;
 
 }
 
 div .iconName {
-
-    color: rgb(255, 255, 255);
+   color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
     text-align: -webkit-center;
-    max-width: 200px;
-    background: #a9a9a93d;
+    max-width: 80%;
+    /* background: #a9a9a93d; */
     border-radius: 19px;
-
 }
 .iconName span, .iconName li{
     color: #00bfff;
