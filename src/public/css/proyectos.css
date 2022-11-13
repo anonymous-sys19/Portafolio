@@ -36,9 +36,10 @@
     text-align: center;
     padding: 0 0 0 2rem;
     font: menu;
-    max-width: 90%;
+    max-width: 96%;
     align-items: center;
     display: flex;
+    font-size: 12.4px;
 }
 
 .hiddle {
