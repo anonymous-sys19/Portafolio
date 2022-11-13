@@ -1,0 +1,119 @@
+@import url('./css/style.css/:root');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.cont {
+    max-width: 60%;
+    height: 10rem;
+    border: #e8eff9;
+    border-style: unset;
+    border-radius: 15px;
+    color: var(--font);
+    justify-content: flex-start;
+    display: flex;
+    margin: 12px auto 12px auto;
+    background: #000000;
+    box-shadow: 13px -12px 14px 0px rgb(149 137 211 / 22%);
+    -webkit-box-shadow: 13px -12px 14px 0px rgb(152 122 211 / 22%);
+    -moz-box-shadow: 13px -12px 14px 0px rgba(55, 204, 31, 0.22) inset;
+}
+
+.cont-sect {
+    padding: 10px;
+}
+
+.cont img {
+    max-width: 220px;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.cont p {
+    text-align: center;
+    padding: 0 0 0 2rem;
+    font: menu;
+    max-width: 90%;
+    align-items: center;
+    display: flex;
+}
+
+.hiddle {
+    display: none;
+}
+
+
+.proyects-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    /* padding: 1rem; */
+    color: var(--Title);
+    margin: 1rem auto;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .cont {
+
+        align-items: center;
+
+        height: auto;
+        text-align: center;
+        max-width: 95%;
+    }
+
+
+    .cont img {
+        width: 55%;
+        border-radius: 10px;
+    }
+
+    .cont p {
+        text-align: center;
+        max-width: 95%;
+        padding: 0 0 1rem 0;
+        font: menu;
+        margin: 12px;
+        display: flow-root;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cont {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        width: auto;
+        height: auto;
+        text-align: center;
+        width: 90%;
+
+    }
+
+    .cont-sect {
+        padding: 10px;
+    }
+
+    .cont img {
+        width: 78%;
+        border-radius: 10px;
+        max-height: 150px;
+    }
+
+    .cont p {
+        text-align: center;
+        max-width: 95%;
+        padding: 0 0 1rem 0;
+        font: menu;
+        margin: 12px;
+        display: flow-root;
+    }
+}
