@@ -1,0 +1,223 @@
+@import url('./css/style.css/:root');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.cont {
+    max-width: 60%;
+    height: 10rem;
+    border: #e8eff9;
+    border-style: unset;
+    border-radius: 15px;
+    color: var(--font);
+    justify-content: flex-start;
+    display: flex;
+    margin: 12px auto 12px auto;
+    background: #000000;
+    box-shadow: 13px -12px 14px 0px rgb(149 137 211 / 22%);
+    -webkit-box-shadow: 13px -12px 14px 0px rgb(152 122 211 / 22%);
+    -moz-box-shadow: 13px -12px 14px 0px rgba(55, 204, 31, 0.22) inset;
+}
+
+.cont-sect {
+    padding: 10px;
+}
+
+.cont img {
+    max-width: 220px;
+    border-radius: 10px;
+    margin: 1.5rem;
+    transition: 0.3s;
+}
+
+/*  */
+.cont img:hover {
+    opacity: 0;
+}
+.cont .overlay {
+    position: absolute;
+    top: 1%;
+    bottom: 0;
+    left: 20.5%;
+    right: 0;
+    max-width: 152px;
+    opacity: 0;
+    max-height: 73%;
+    transition: 1s ease;
+    background-color: rgb(0 0 0 / 82%);
+    margin: 1.1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+.cont:hover .overlay {
+    opacity: 1;
+    text-align: center;  
+}
+.cont a, .cont a li{
+    color: var(--font); 
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.ico {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+    max-width: 152px;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.visit:hover {
+    color: var(--Title);
+    text-align: center;
+    text-decoration: none;
+}
+
+/*  */
+
+.cont p {
+    text-align: center;
+    padding: 0 0 0 2rem;
+    font: menu;
+    max-width: 96%;
+    align-items: center;
+    display: flex;
+    font-size: 12.4px;
+}
+
+.hiddle {
+    display: none;
+}
+
+
+.proyects-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    /* padding: 1rem; */
+    color: var(--Title);
+    margin: 1rem auto;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .cont {
+
+        align-items: center;
+
+        height: auto;
+        text-align: center;
+        max-width: 95%;
+    }
+
+
+    .cont img {
+        width: 55%;
+        border-radius: 10px;
+    }
+
+    .cont .overlay {
+        position: absolute;
+        top: 3%;
+        bottom: 0;
+        left: 3%;
+        right: 0;
+        max-width: 225px;
+        opacity: 0;
+        max-height: 80%;
+        transition: .3s ease;
+        margin: 1.1rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+    }
+
+
+    .cont p {
+        text-align: center;
+        max-width: 95%;
+        padding: 0 0 1rem 0;
+        font: menu;
+        margin: 12px;
+        display: flow-root;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .cont {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        width: auto;
+        height: auto;
+        text-align: center;
+        width: 90%;
+
+    }
+
+    .cont-sect {
+        padding: 10px;
+    }
+
+    .cont img {
+        width: 78%;
+        border-radius: 10px;
+        max-height: 150px;
+    }
+
+
+    .cont .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 220px;
+        opacity: 0;
+        max-height: 63%;
+        transition: .3s ease;
+        margin: 1.5rem auto;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+    .cont p {
+        text-align: center;
+        max-width: 95%;
+        padding: 0 0 1rem 0;
+        font: menu;
+        margin: 12px;
+        display: flow-root;
+    }
+}

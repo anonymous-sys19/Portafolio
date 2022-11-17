@@ -1,0 +1,57 @@
+.tecnologiess h2 {
+  text-align: center;
+  justify-content: center;
+  margin: 2rem auto;
+  color: var(--Title);
+  font-size: x-large;
+  font-family: 'Playfair Display', serif;
+}
+
+.tecnologies {
+  background: #11141a;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0 1.2rem 0;
+  text-align: center;
+  display: flex;
+}
+
+.contenido-code {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 2rem;
+  max-width: 100%;
+
+}
+
+.contenido-code div {
+  max-width: 100%;
+  max-height: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(90px, 2fr));
+  justify-items: center;
+  margin: 0.3rem;
+}
+
+.contenido-code div svg {
+  max-width: none;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: auto;
+}
+
+.contenido-code .icon li {
+  color: var(--font);
+  font: menu;
+  list-style-type: disclosure-closed;
+  padding: 1rem 0 1rem 0;
+}
+.btn-secondary{
+  --bs-btn-bg: #000000;
+}
