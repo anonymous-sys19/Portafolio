@@ -63,7 +63,7 @@ router.post("/json", (req, res) => {
     }
 
     sendMail()
-        .then(result => res.status(200).redirect('tasks/index.hbs'))
+        .then(result => res.status(200).redirect('portafolio'))
         .catch(err => res.json({err}))
 })
 //router.put('/tasks/send', mailSend.mailOptions);
