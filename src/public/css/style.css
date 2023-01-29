@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-:root{
+
+:root {
     --Title: #ffffff;
     --greenI: chartreuse;
     --bgTitle: linear-gradient(to right, #409eff 0%, #66d58a 100%);
@@ -7,11 +8,13 @@
     --font-title: #37eb9a;
     --skyblue: #00bfff;
 }
+
 * {
     margin: none;
     padding: none;
 }
-.logoAl{
+
+.logoAl {
     width: min(100% - 15px, 840px);
     text-align: center;
     margin-inline: auto;
@@ -44,7 +47,7 @@ header {
 }
 
 div .iconName {
-   color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
     text-align: -webkit-center;
@@ -52,7 +55,9 @@ div .iconName {
     /* background: #a9a9a93d; */
     border-radius: 19px;
 }
-.iconName span, .iconName li{
+
+.iconName span,
+.iconName li {
     color: #00bfff;
     text-shadow: 1px -1px 12px #27d9d1;
 
@@ -88,6 +93,38 @@ div .iconName {
 
 }
 
+.icons_W {
+    position: absolute;
+    right: 0.1rem;
+    
+}
+
+.icons_W img {
+    box-shadow: -3px 0px 12px 10px rgb(32 166 150 / 30%);
+    -webkit-box-shadow: -3px 0px 12px 10px rgb(123 221 50 / 30%);
+    -moz-box-shadow: -3px 0px 12px 10px rgba(32, 166, 150, 0.3);
+    border-radius: 70px;
+    background: center;
+    width: 3rem;
+    
+}
+
+.rot {
+    animation: loading 8s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .saludo {
     background: rgb(136 147 139 / 3%);
     margin: 0;
@@ -151,13 +188,13 @@ h2 {
 
 .text h2 {
     /* background: #ff2881eb; */
-    
-    
+
+
     color: var(--Title);
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 11px 9px #d30765;
 }
-  
+
 
 /* Logo */
 .logoB {
