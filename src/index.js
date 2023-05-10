@@ -14,7 +14,8 @@ app.set('server', process.env.PORT || 5500)
 
 
 app.engine('.hbs', engine({
-    extname: '.hbs'
+    extname: '.hbs',
+    partialsDir: path.join(__dirname, './partials')
 }));
 app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, './views'));

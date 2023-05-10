@@ -95,17 +95,21 @@ div .iconName {
 
 .icons_W {
     position: absolute;
-    right: 0.1rem;
+    right: 0.8rem;
+    margin: 0;
+    padding: unset;
+    width: auto;
     
 }
 
-.icons_W img {
-    box-shadow: -3px 0px 12px 10px rgb(32 166 150 / 30%);
-    -webkit-box-shadow: -3px 0px 12px 10px rgb(123 221 50 / 30%);
-    -moz-box-shadow: -3px 0px 12px 10px rgba(32, 166, 150, 0.3);
-    border-radius: 70px;
-    background: center;
-    width: 3rem;
+.icons_W span {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 800 !important;
+    font-size: 2.5pc;
+    margin: 0;
+    padding: unset;
+    width: min-content;
+
     
 }
 
@@ -182,17 +186,15 @@ h2 {
 .text p {
     color: var(--font);
     /* font-weight: unset; */
-    font-size: 14px;
+    /* font-size: 14px; */
     font-family: 'Cabin', sans-serif;
 }
 
 .text h2 {
     /* background: #ff2881eb; */
 
-
     color: var(--Title);
     font-family: 'Playfair Display', serif;
-    text-shadow: 1px 11px 9px #d30765;
 }
 
 

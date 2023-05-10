@@ -16,7 +16,8 @@
 .contact-all .contactH3{
     text-align: center;
     margin: 1rem 0 1.5rem 0;
-    color: azure;
+    color: var(--Title);
+    font-family: 'Playfair Display', serif;
 }
  .contact-all .correo {
     text-align: center;
