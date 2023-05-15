@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router()
 const nodemailer = require("nodemailer");
 const { google } = require('googleapis');
+const cv_user = ""
 
 router.get('/', (req, res) => res.render('tasks/index'));
 router.get('/portafolio', (req, res) => res.render('tasks/index'));

@@ -20,6 +20,35 @@
     margin-inline: auto;
 }
 
+/*CV-ICONS USER*/
+.cv-list {
+    align-items: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    position: absolute;
+    background-color: #141619;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-user {
+    padding: 5px 0.5rem 3px 1px;
+    color: #adb5bd;
+    font-size: x-large;
+}
+
+.txt-cv {
+    /* padding: 8px 1rem 8px 4px; */
+    color: #0dcaf0;
+    /* font-size: x-large; */
+    text-decoration: none;
+    font-weight: 800;
+}
+
 .devs {
     background: #1FCFA6;
     background: var(--bgTitle);
@@ -99,7 +128,7 @@ div .iconName {
     margin: 0;
     padding: unset;
     width: auto;
-    
+
 }
 
 .icons_W span {
@@ -110,7 +139,7 @@ div .iconName {
     padding: unset;
     width: min-content;
 
-    
+
 }
 
 .rot {
@@ -121,7 +150,8 @@ div .iconName {
     0% {
         transform: rotate(0);
     }
-    50%{
+
+    50% {
         transform: rotate(0);
     }
 
@@ -129,6 +159,7 @@ div .iconName {
         transform: rotate(360deg);
     }
 }
+
 .saludo {
     background: rgb(136 147 139 / 3%);
     margin: 0;
