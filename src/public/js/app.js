@@ -1,18 +1,14 @@
+let ubicacionPrincipal = Window.pageYOffset;
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "#000000";
+window.onscroll = function () {
+    let desplasamiento = window.pageYOffset;
+    if (ubicacionPrincipal >= desplasamiento) {
+        document.getElementById("header").style.top = "0";
+    } else {
+        document.getElementById("header").style.top = "-100px";
+    }
+    ubicacionPrincipal = desplasamiento;
 }
 
-
-
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-  document.body.style.backgroundColor = "#1C2330";
-}
 
 

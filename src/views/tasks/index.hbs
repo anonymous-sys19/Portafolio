@@ -1,13 +1,16 @@
-<header class="mainNav">
-
-    <span id="mainbtn" onclick="openNav()"> &#9776;</span>
+<header id="header" class="mainNav">
+ {{!-- <input id="mainbtn" onclick="openNav()" value="&#9776;">
+    <label for="">&times;</label> --}}
+   
+    <input type="checkbox" id="menu-bar">
+    <label id="menu-bar" for="menu-bar" class="fa fa-bars"></label>
 
 
     <div class="logo">
 
         <img class="icon" src="./svg/icon.jpg" alt="">
     </div>
-    <div class="coll animate__animated animate__zoomInDown">
+    <div class="coll animate__animated animate__zoomInDown contIcon">
         <div class="iconName">
             <span>Greivin Mayorga </span>
             <li class="fas fa-laptop-code" aria-hidden="true"></li>
@@ -16,11 +19,17 @@
         </div>
 
     </div>
-
-    <div>
+{{!-- Init CV --}}
+    <div class="cv-list">
+        <span class="fa fa-user cv-user">
+        </span>
+        <a href="#" class="txt-cv">CV</a>
+    </div>
+{{!-- End cv --}}
+    {{!-- <div>
 
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
             <a href="#">Inicio</a>
             <a href="#proyect">Proyectos</a>
             <a href="#tg">Tecnologías</a>
@@ -30,15 +39,19 @@
         </div>
 
     
-    </div>
+    </div> --}}
 
+        <nav class="navbar" id="nav">
+            
+            <a href="#">Inicio</a>
+            <a href="#proyect">Proyectos</a>
+            <a href="#tg">Tecnologías</a>
+            <a href="#cert">Certificados</a>
+            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="UsuarioName">Contactar</a>
+           
+        </nav>
 
-
-    <div class="cv-list">
-        <span class="fa fa-user cv-user">
-        </span>
-        <a href="#" class="txt-cv">CV</a>
-    </div>
 </header>
 
 <div class="saludo">

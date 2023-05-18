@@ -68,6 +68,6 @@ router.post("/json", (req, res) => {
         .then(result => res.status(200).redirect('portafolio'))
         .catch(err => res.json({err}))
 })
-//router.put('/tasks/send', mailSend.mailOptions);
+
 
 module.exports = router;
