@@ -71,7 +71,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 1rem auto;
-    padding: 1.5rem 0 0 0;
+    padding: 4.5rem 0 0 0;
 
 }
 
@@ -123,6 +123,7 @@ div .iconName {
     height: 10rem;
     border-radius: 50px;
     width: 10rem;
+    margin: auto;
 
 }
 
