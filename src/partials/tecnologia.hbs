@@ -1,10 +1,13 @@
 <div class="tecnologiess" id="tg">
-    <h2 class="titulo">Tecnologias</h2>
+  <h2 class="titulo">
+    Tecnologias
+  </h2>
 
-    <div class="tecnologies">
+  <div class="tecnologies">
+    {{! <div class="contenido-code">
 
-        <div class="contenido-code">
-            <div class="icon btn btn-secondary">
+
+            <div class="icon btn btn-secondary card">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 48 48"
                     style=" fill:#000000;">
                     <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -17,9 +20,16 @@
                     </path>
                 </svg>
 
-                <li class="listDM">HTML5: base para empezar en el mundo del desarrollo web</>
+                <div class="textBox">
+                    <p class="text head">HTML</p>
+                    <span>HTML5: base para empezar en el mundo del desarrollo web</span>
+                    <p class="text price">PRO</p>
+                </div>
+                
             </div>
-            <div class="icon btn btn-secondary">
+
+
+            <div class="icon btn btn-secondary card">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 48 48"
                     style=" fill:#000000;">
                     <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -31,10 +41,15 @@
                         d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
                     </path>
                 </svg>
-                <li class="listDM">CSS3: Cascading Style Sheets</>
+                
+                <div class="textBox">
+                    <p class="text head">CSS3</p>
+                    <span>CSS3: Cascading Style Sheets</span>
+                    <p class="text price">PRO</p>
+                </div>
 
             </div>
-            <div class="icon btn btn-secondary">
+            <div class="icon btn btn-secondary card">
 
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 48 48"
                     style=" fill:#000000;">
@@ -154,10 +169,93 @@
                 </svg>
                 <li class="listDM">MySQL: Database</li>
             </div>
+        </div> }}
+
+    <div class="card">
+      <span class="title">
+        All tags
+      </span>
+      <div class="card__tags">
+        <ul class="tag">
+          <li class="tag__name">
+            HTML
+          </li>
+          <li class="tag__name">
+            CSS3
+          </li>
+          <li class="tag__name">
+            JavaScript
+          </li>
+          <li class="tag__name">
+            Reactjs
+          </li>
+          <li class="tag__name">
+            Nodejs
+          </li>
+          <li class="tag__name">
+            PHP
+          </li>
+          <li class="tag__name">
+            Mongodb
+          </li>
+          <li class="tag__name">
+            MySQL
+          </li>
+          <li class="tag__name">
+            PostgreSQL
+          </li>
+        </ul>
+      </div>
+
+      
+        <div class="body">
+          <div class="skill">
+            <div class="skill-name">
+              HTML
+            </div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 90%"></div>
+            </div>
+            <div class="skill-percent-number">
+              90%
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              CSS
+            </div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 80%"></div>
+            </div>
+            <div class="skill-percent-number">
+              80%
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              JavaScript
+            </div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent-number">
+              75%
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              Reactjs
+            </div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent-number">
+              65%
+            </div>
+          </div>
         </div>
-
-
-
-
-    </div>
+      
+    {{!  }}
+  </div>
 </div>

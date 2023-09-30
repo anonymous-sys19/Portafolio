@@ -22,7 +22,7 @@
 
 /*CV-ICONS USER*/
 .cv-list {
-    align-items: center;
+    /* align-items: center;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -32,9 +32,80 @@
     margin: auto;
     padding: 0 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
+/* CV-List Code__ */
+
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+    background: black;
+}
+
+.download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #01e056;
+    border: solid 1px #01e0572d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download-button:hover .download {
+    transform: translateY(100%)
+}
+
+.download svg polyline,
+.download svg line {
+    animation: docs 1s infinite;
+}
+
+@keyframes docs {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-15%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/*  */
 .cv-user {
     padding: 5px 0.5rem 3px 1px;
     color: #adb5bd;
@@ -92,7 +163,8 @@ div .iconName {
     text-shadow: 1px -1px 12px #27d9d1;
     font-size: initial;
 }
-.contIcon{
+
+.contIcon {
     margin: 0 0 5rem 0;
 }
 
@@ -158,7 +230,7 @@ div .iconName {
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
-}
+    }
 
     50% {
         transform: rotate(0);
@@ -166,7 +238,7 @@ div .iconName {
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
         -o-transform: rotate(0);
-}
+    }
 
     100% {
         transform: rotate(360deg);
@@ -174,7 +246,7 @@ div .iconName {
         -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
-}
+    }
 }
 
 .saludo {
@@ -199,7 +271,7 @@ div .iconName {
         -moz-transform: translateY(70%);
         -ms-transform: translateY(70%);
         -o-transform: translateY(70%);
-}
+    }
 
     100% {
         opacity: 1;
