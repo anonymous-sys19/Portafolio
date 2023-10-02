@@ -4,39 +4,31 @@
   margin: 2rem auto;
   color: var(--Title);
   font-family: 'Playfair Display', serif;
+  
+}
+.tecnologiess{
+  background: #0000001e;
 }
 
-/* .tecnologies {
-  background: #11141a;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  padding: 1.2rem 0 1.2rem 0;
-  text-align: center;
+.card__tags{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.contenido-code {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  padding: 2rem;
-  max-width: 100%;
-
-} */
 
 .card {
   width: -webkit-fill-available;
-  height: 300px;
-  /* background: #ecf39e;
-   */
-  background: #313131;
+  height: auto;
+  /* background: #ecf39e; */
+  background: #0000001e;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: inherit; */
   color: #31572c;
   border-radius: 15px;
   box-shadow: -20px 20px 0px -5px #363a58;
-  margin: auto 4rem;
+  margin: 4rem auto;
+  justify-content: center;
 }
 
 .title {
@@ -131,86 +123,6 @@
 }
 
 
-/*  */
-/* 
-
-.card {
-  width: 195px;
-  height: 285px;
-  background: #313131;
-  border-radius: 20px;
-  ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  transition: 0.2s ease-in-out;
-}
-
-.img {
-  height: 30%;
-  position: absolute;
-  transition: 0.2s ease-in-out;
-  z-index: 1;
-}
-
-.textBox {
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  transition: 0.2s ease-in-out;
-  z-index: 2;
-}
-
-.textBox>.text {
-  font-weight: bold;
-}
-
-.textBox>.head {
-  font-size: 20px;
-}
-
-.textBox>.price {
-  font-size: 17px;
-}
-
-.textBox>span {
-  font-size: 12px;
-  color: lightgrey;
-}
-
-.card:hover>.textBox {
-  opacity: 1;
-}
-
-.card:hover>.img {
-  height: 65%;
-  filter: blur(7px);
-  animation: anim 3s infinite;
-  -webkit-filter: blur(7px);
-}
-
-@keyframes anim {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.card:hover {
-  transform: scale(1.04) rotate(-1deg);
-} */
 
 .card {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -222,8 +134,10 @@
 
 .body {
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
 .skill {

@@ -29,5 +29,5 @@ app.use(router)
 // On Port: 
 
 app.listen(app.get('server'), () => {
-    console.log(`Server is Running ${app.get('server')}`);
+    console.log(`Server is Running:  http://localhost:${app.get('server')}`);
 })
